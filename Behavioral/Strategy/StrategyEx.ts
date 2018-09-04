@@ -175,6 +175,7 @@ namespace StrategyEx {
         public shareContract(): void {
             this.isContractShared = true;
             this.setKebabMenuBehavior(new ICostItemActionsSharedContract(this))
+            console.log("Contract shared");
         }
     }
 
@@ -187,6 +188,7 @@ namespace StrategyEx {
 
     let cdRow = new CostItemRow("Demolition");
     cdRow.displayRow();
+    console.log("===================")
     cdRow.shareContract();
     console.log("===================")
     cdRow.displayRow();

@@ -62,9 +62,6 @@ namespace AbstractFactory {
 
     }
 
-
-
-
     abstract class PizzaStore {
         public orderPizza(type: string): Pizza {
             let pizza;
