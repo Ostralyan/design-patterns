@@ -1,4 +1,5 @@
 Why design patterns?
 
 1. Someone has already solved your problems
-2. Allows you to write code that keeps in mind reusability AND maintainability
+2. Creates code that keeps in mind reusability AND maintainability
+3. Allows us to avoid altering exist code. Don't fix it if it's not broke

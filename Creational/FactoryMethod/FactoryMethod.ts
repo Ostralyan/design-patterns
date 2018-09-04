@@ -177,3 +177,9 @@ namespace FactoryMethod {
      pizza = chicagoStore.orderPizza("cheese");
      console.log("Joel ordered a " + pizza.getName() + "\n");
 }
+
+
+// ChangeOrders
+// In Approval Change Orders
+// Invoices
+// PTD Invoices
