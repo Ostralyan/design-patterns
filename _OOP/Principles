@@ -4,3 +4,13 @@ Program to interfaces, not implementations
 Strive for loosely coupled designs between objects that interact
 Classes should be open for extension but closed for modification
 Depend on abstractions. Do not depend on concrete classes.
+Talk only to your immediate friends.
+Don't call us, we'll call you.
+
+Principle of Least Knowledge - talk only to your immediate friends.
+    * The object itself
+    * Objects passed in as a parameter to the method
+    * Any object the method creates or instantiates
+    * Any components of the object
+
+The Hollywood Principle -   Don’t call us, we’ll call you
