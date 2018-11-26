@@ -47,4 +47,5 @@ let t = new Tea();
 let c = new Coffee();
 
 t.prepareRecipe();
+console.log("=====")
 c.prepareRecipe();
